@@ -1,0 +1,5 @@
+Create project : npm create vite@latest
+
+Install Node module: npm install
+
+Run:  npm run dev
