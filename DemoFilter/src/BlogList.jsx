@@ -1,3 +1,5 @@
+import reactLogo from './assets/react.svg'
+
 function BlogList(props)
 {
    const blogs = props.blogs;
@@ -21,7 +23,7 @@ function BlogList(props)
             (blogs.map((blog)=>
               <div className="col-md-3 p-3 mt-3" key={blog.id}>
                 <div className="border p-3">
-                  
+                  <img src={reactLogo} className='img-fluid' alt="" />                  
                   <p><strong>{blog.title}</strong></p>
                   <p>{blog.description}</p>
                   <p>{blog.author}</p>                  

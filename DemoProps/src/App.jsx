@@ -3,7 +3,7 @@ import BlogList from "./BlogList";
 
 function App() {
   
-    const blogs = 
+    const [blogs,setBolgs] = useState(
       [
         {   
         title : 'My Title 1',
@@ -41,6 +41,8 @@ function App() {
         id : 7
       }
     ]
+    );
+      
     
 
   return (
